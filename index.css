@@ -84,7 +84,14 @@
 
 #foots {
   border: 2px solid black;
-  padding: 1.5rem 0 1.5rem 1.5rem;
+  padding: 1.5rem 0 1.5rem 0;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  margin-left: 23%;
+  width: 50%;
+  margin-bottom: 10px;
+
 }
 
 .disappear {
@@ -101,6 +108,7 @@
 
 #date {
   align-self: flex-end;
+  margin-top: 10px;
 }
 
 .nothing {
