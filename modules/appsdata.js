@@ -33,6 +33,10 @@ if ('cl' === 'clz') {
   deleteItem(1);
 }
 
+window.deleteItem = (id) => {
+  bigBook.removeBook(id);
+};
+
 list.addEventListener('click', () => {
   bigBook.showList();
 });
